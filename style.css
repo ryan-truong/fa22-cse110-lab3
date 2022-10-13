@@ -1,0 +1,9 @@
+/* Task title */
+#task{
+    color: rgb(255,255,255);
+}
+
+/* TItle of each section */
+.title{
+    color: hsl(240, 100%, 50%);
+}
