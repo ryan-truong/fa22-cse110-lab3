@@ -20,6 +20,9 @@
     font-size: 50px;
     text-decoration:  overline black wavy;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 7px;
+    border: 2px dashed green;
 }
 
 /*Section nav */
@@ -34,6 +37,7 @@ h2{
 
 .date{
     font-size: 1.5rem;
+    margin-left: 6px;
 }
 
 [id="form"]{
@@ -43,6 +47,8 @@ h2{
 .cat{
     height: 200px;
     width: 300px;
+    padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 .vid{
@@ -55,4 +61,19 @@ h2{
     border-color: black;
     border-width: 2.5px;
     border-radius: 5px;
+}
+
+h2,h3{
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+li p{
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+footer > div{
+    margin: auto;
 }
