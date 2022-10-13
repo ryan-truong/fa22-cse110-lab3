@@ -37,3 +37,13 @@ h2{
 [id="form"]{
     font-size: 2.5vw;
 }
+
+.cat{
+    height: 200px;
+    width: 300px;
+}
+
+.vid{
+    max-width: 800px;
+    max-height: 800px;
+}
