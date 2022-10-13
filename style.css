@@ -49,3 +49,10 @@ h2{
     max-width: 800px;
     max-height: 800px;
 }
+
+.formBorder{
+    border-style: solid;
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 5px;
+}
