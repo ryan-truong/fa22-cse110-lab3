@@ -45,13 +45,16 @@ h2{
 }
 
 .cat{
+    position: static;
     height: 200px;
     width: 300px;
     padding-left: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 .vid{
+    display: inline-block;
+    position: relative;
     max-width: 800px;
     max-height: 800px;
 }
@@ -76,4 +79,28 @@ li p{
 
 footer > div{
     margin: auto;
+}
+
+section + section{
+    margin-top: 1px;
+}
+
+.introContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+br ~ div{
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: [row1-start] 25px [row1-end row2-start] 25px [row2-end];
+    grid-template-columns: auto 50px auto;
+    column-gap: 5px;
+}
+
+section.imageSpacing{
+    display: block;
+    margin-top: 250px;
 }
