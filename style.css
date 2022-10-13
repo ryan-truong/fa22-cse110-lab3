@@ -18,6 +18,8 @@
 /* Main title*/
 .main-title{
     font-size: 50px;
+    text-decoration:  overline black wavy;
+    text-align: center;
 }
 
 /*Section nav */
